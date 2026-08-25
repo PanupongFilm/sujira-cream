@@ -46,7 +46,7 @@ export default function Home() {
         text: texts[i % texts.length]
       });
     }
-
+// Fix
     const centerX = canvas.width / 2;
     const centerY = canvas.height / 2;
     const heartSize = Math.min(canvas.width, canvas.height) / 35;
